@@ -3,7 +3,7 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <View className="items-center border border-gray-400 p-5 rounded-lg bg-white">
+    <View className="flex flex-1 justify-center items-center border border-gray-400 p-5 rounded-lg bg-white">
       <Text className="text-2xl">Login</Text>
       <Text className="text-md">Sign in to continue</Text>
 
@@ -28,7 +28,7 @@ const Login = () => {
           Button
         </Text>
       </View>
-      <View className='mt-2'>
+      <View className="mt-2">
         <Text>
           Don,t have an account?
           <Text className="text-red-800">Create a new account</Text>

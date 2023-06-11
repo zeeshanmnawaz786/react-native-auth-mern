@@ -4,7 +4,7 @@ import React from 'react';
 const Signup = () => {
   return (
     <ScrollView>
-      <View className="items-center border border-gray-400 p-5 rounded-lg bg-white">
+      <View className=" flex flex-1 justify-center items-center border border-gray-400 p-5 rounded-lg bg-white">
         <Text className="text-2xl">Create a New Account</Text>
         <Text className="text-md">
           Already Registered?<Text className="text-red-800">Login here</Text>
